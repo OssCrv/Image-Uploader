@@ -1,0 +1,74 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 36px 32px;
+    width: 402px;
+    height: 469px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 12px;
+
+    letter-spacing: -0.035em;
+
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+
+p {
+    padding-top: 16px;
+    font-size: 10px;
+    letter-spacing: -0.035em;
+
+    /* Gray 3 */
+    color: #828282;
+}
+
+.drag-and-drop {
+    margin: 30px 32px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.3vh dashed #97BEF4;
+    background: #F6F8FB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 338px;
+    height: 220px;    
+    
+    img {
+        width: 115px;
+        height: 90px;
+    }
+
+    h3 {
+        padding-top: 38px;
+    }
+}
+
+button {
+    margin-top: 18px;
+    padding: 8px 16px;
+    background: #2F80ED;
+    border-radius: 8px;
+    
+    font-family: Noto Sans;
+    color: white;
+    font-size: 12px;
+    letter-spacing: -0.035em;
+}
